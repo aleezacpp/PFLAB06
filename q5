@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int div;
+    int i;
+    int a = 65536;
+    printf("%d ",a);
+    for (i=2;i<=9;i=i+1){
+        div=a/i;
+        a=div;
+        printf("%d ", div);
+    }
+    return 0;
+}
